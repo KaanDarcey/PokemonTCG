@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Midterm Project</title>
+        <meta charset="utf-8"/>
+        <link href="CSS/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="app">
+            <div id="main">
+                <img id="otherPic"  src="IMGS/card1.svg" alt="Pikachu card"/>
+                <img id="mainpic" src="IMGS/proff.svg" alt="proffessor Darcey"/>
+                <img id="squirtle" src="IMGS/pokeball1.svg" alt="pokeball"/>
+                <img id="charmander" src="IMGS/pokeball3.svg" alt="pokeball"/>
+                <img id="bulbasaur" src="IMGS/pokeball3.svg" alt="pokeball"/>
+                <img id="sudowoodo" src="IMGS/sudo.svg" alt="pokemon"/>
+                <img id="snorlax" src="IMGS/snor.svg" alt="pokemon"/>
+                    <button type="button" id="boy" onclick="imABoy()">Boy</button>
+                    <button type="button" id="girl" onclick="imAGirl()">Girl</button>
+                <button id="menu" onclick="openMenu()">Binder</button>
+                <div id="binder">
+                    <h1 id="bindhead">Your Collection</h1>
+                    <div class="cardslot" id="cardslot1"></div>
+                    <div class="cardslot" id="cardslot2"></div>
+                    <div  class="cardslot"id="cardslot3"></div>
+                    <div  class="cardslot"id="cardslot4"></div>
+                    <button id="close" onclick="closeMenu()">Close</button>
+                </div>
+                <button type="button" id="help" onclick="openHelp()">Help</button>
+                <div id="instructions">
+                    <h1 id="helphead">Instructions</h1>
+                    <p id="instrText">
+                        Welcome to the world of Pokemon Trading Cards!
+                        <br><br>
+                        Controls:
+                        <br>
+                        - Use the W, A, S, D to   move you character
+                        <br>
+                        - Use the mouse to click on interactive objects
+                        <br>
+                        <br>
+                        Tips:
+                        <br>
+                        - Visit the lab first to receive your starter card!
+                        <br>
+                        - Remember you can only have 4 pokemon cards on you at a time!
+                        <br>
+                        - Once you have your start go check out the pokemart to see the cool pokemon trading boxes for sale! ***But once you go there...theres no coming back!!***
+                        <br><br>
+                        Remember to have fun, and enjoy the wonderful world of pokemon trading cards!
+                        <br>
+                        Good luck!
+                        
+                    </p>
+                    <button id="closehlp" onclick="closeHelp()">Close</button>
+                </div>
+            </div>
+            <div id="textbox">
+                <img id="txtBox"src="IMGS/textbox1.svg" alt="text border"/>
+            </div>
+        </div>
+        <script src="JS/app.js"></script>
+    </body>
+</html>
